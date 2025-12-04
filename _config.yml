@@ -1,0 +1,24 @@
+title: JURO Spain
+description: Professional legal services in Spain - Expert guidance for your legal needs
+url: ""
+baseurl: ""
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
